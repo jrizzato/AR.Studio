@@ -4,9 +4,12 @@ Proyectos de Realidad Aumentada
 marker: hiro
 
 links:
+
   https://aframe.io/blog/arjs/
   
   https://aframe.io/docs/0.8.0/introduction/hosting-and-publishing.html#hosting-models
+  
+  https://www.youtube.com/watch?v=mPiFPv9WzOw
 
 AR1: muestra cubo blanco translucido
 
