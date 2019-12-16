@@ -2,18 +2,20 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Hello, WebVR! • A-Frame</title>
-    <meta name="description" content="Hello, WebVR! • A-Frame">
+    <title>Robot! • A-Frame</title>
+    <meta name="description" content="Robot! • A-Frame">
     <script src="https://aframe.io/releases/0.8.2/aframe.min.js"></script>
     <script src="https://cdn.rawgit.com/donmccurdy/aframe-extras/v5.0.1/dist/aframe-extras.min.js" ></script>
+    <script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
   </head>
   <body>
-    <a-scene background="color: #ECECEC">
+    <a-scene embedded arjs>
       <a-assets>
         <a-asset-item id="robot" response-type="arraybuffer" src="https://raw.githubusercontent.com/jrizzato/AR.Studio/master/AR5/scene.gltf"></a-asset-item>
       </a-assets>
       <a-entity gltf-model="#robot" scale="0.007 0.007 0.007" position="0 1 -4"></a-entity>
       <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4" shadow></a-plane>
+      <a-marker-camera preset='hiro'></a-marker-camera>
     </a-scene>
   </body>
 </html>
