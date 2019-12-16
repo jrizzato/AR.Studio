@@ -5,11 +5,13 @@ marker: hiro
 
 links:
 
-  https://aframe.io/blog/arjs/
+  - blog donde habland de modelos 3D: https://aframe.io/blog/arjs/
   
-  https://aframe.io/docs/0.8.0/introduction/hosting-and-publishing.html#hosting-models
+  - doc donde hablan de como cargar un modelo 3D: https://aframe.io/docs/0.8.0/introduction/hosting-and-publishing.html#hosting-models
   
-  https://www.youtube.com/watch?v=mPiFPv9WzOw
+  - otro video donde muestran como cargar un modelo (y habla de glitch): https://www.youtube.com/watch?v=mPiFPv9WzOw 
+  
+  - página principal de A-Frame: https://aframe.io/docs/0.9.0/introduction/
 
 AR1: muestra cubo blanco translucido
 
